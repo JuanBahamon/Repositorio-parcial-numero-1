@@ -1,8 +1,9 @@
 h1 {
     color: rgb(228, 205, 3);
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 6px;
 }
 
 h2 {
@@ -21,7 +22,7 @@ h3 {
 }
 
 p {
-    color: gray;
+    color: rgb(77, 77, 77);
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -30,11 +31,13 @@ p {
 
 form {
     margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #000000;
+    padding: 60px 20px;
+    border: 3px solid #000000;
     border-radius: 10px;
     max-width: 400px;
     background-color: #f9f9f9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 form label {
@@ -53,21 +56,24 @@ form label {
     background-color: #007BFF;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    cursor:progress;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .botonSubmit:hover {
     background-color: #0056b3;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in;   
 }
 
 #resultados {
     margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
+    padding: 60px 20px;
+    border: 3px solid #ccc;
     border-radius: 10px;
     max-width: 400px;
-    background-color: #e9ecef;
+    background-color: #f5f5f5;
+    border-color: #000000;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 #resultados h2 {
@@ -78,7 +84,7 @@ form label {
 #resultadosLista {
     list-style-type:upper-roman;
     text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #resultadosLista li {
