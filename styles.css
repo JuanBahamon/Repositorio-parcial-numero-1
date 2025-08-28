@@ -1,0 +1,86 @@
+h1 {
+    color: rgb(228, 205, 3);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    color: rgb(0, 102, 255);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+p {
+    color: gray;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    max-width: 400px;
+    background-color: #f9f9f9;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.botonSubmit {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botonSubmit:hover {
+    background-color: #0056b3;
+    transition: all 0.3s ease;
+}
+
+#resultados {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 400px;
+    background-color: #e9ecef;
+}
+
+#resultados h2 {
+    text-align: center;
+    color: #ff2222;
+}
+
+#resultadosLista {
+    list-style-type:upper-roman;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#resultadosLista li {
+    color: #000000;
+}

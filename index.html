@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta: Lenguaje de Programación Favorito</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Estructuras de datos y algoritmos 1 Primer parcial</h1>
+        <h3>Hecho por Juan José Bahamon Lozano</h3>
+    </header>
+    <main>
+        <section>
+            <h2>Encuesta sobre... ¿Cuál es tu lenguaje de programación favorito?</h2>
+        </section>
+        <section>
+            <p>¡Bienvenido! Por favor, vota por tu lenguaje favorito :D</p>
+        </section>
+            <form id="formulario">
+                <label>
+                    <input type="radio" name="lenguaje" value="JavaScript" required>
+                    JavaScript
+                </label><br>
+                <label>
+                    <input type="radio" name="lenguaje" value="Python">
+                    Python
+                </label><br>
+                <label>
+                    <input type="radio" name="lenguaje" value="C++">
+                    C++
+                </label><br>
+                <label>
+                    <input type="radio" name="lenguaje" value="Otro">
+                    Otro
+                </label><br>
+                <button type="submit" class="botonSubmit">Click aqui para votar</button>
+            </form>
+        
+        <div id="resultados" style="display: none;">
+            <h2>Eston son los resultados, ¡gracias por votar amigo!</h2>
+            <ul id="resultadosLista"></ul>
+        </div>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
